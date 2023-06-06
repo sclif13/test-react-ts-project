@@ -1,12 +1,12 @@
-import { T } from '@admiral-ds/react-ui';
+import { StyledT } from '@shared/components/styled';
 
 function App() {
   return (
     <div className='App'>
       <header className='App-header'>
-        <T font='Header/H1' as='h1'>
+        <StyledT font='Header/H1' as='h1' ml={10}>
           TEST Project
-        </T>
+        </StyledT>
       </header>
     </div>
   );
