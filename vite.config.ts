@@ -7,7 +7,7 @@ import { resolve } from 'path';
 export default defineConfig({
   resolve: {
     alias: {
-      '@shared': resolve(__dirname, 'src/shared/src'),
+      '@shared': resolve(__dirname, 'shared/src'),
     },
   },
   plugins: [react(), svgr({ svgrOptions: { dimensions: false, svgProps: { focusable: '{false}' } } })],
